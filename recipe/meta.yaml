@@ -1,7 +1,7 @@
 {% set name = "oslo.config" %}
-{% set version = "10.7.0" %}
+{% set version = "10.8.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "4f0fd4ca7ecfe511fbc0e012d3c63fce57009f360199e9e9cc2329ed55ec911e" %}
+{% set hash = "ce243ec7a494e431dc7a6ac5aa06cdf5ad37110ee04876f505e0e2387d543eea" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/oslo_config-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/oslo_config-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
